@@ -13,9 +13,9 @@ use PragmaRX\Google2FALaravel\Support\Config;
 use PragmaRX\Google2FALaravel\Support\Constants;
 use PragmaRX\Google2FALaravel\Support\Request;
 use PragmaRX\Google2FALaravel\Support\Session;
-use PragmaRX\Google2FAQRCode\Google2FA as Google2FAService;
+use PragmaRX\Google2FA\Google2FA as Google2FAPackage;
 
-class Google2FA extends Google2FAService
+class Google2FA extends Google2FAPackage
 {
     use Auth, Config, Request, Session;
 
