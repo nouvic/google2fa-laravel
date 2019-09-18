@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Google2FALaravel;
+namespace Nouvic\Google2FALaravel;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 

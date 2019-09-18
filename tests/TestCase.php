@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Google2FALaravel\Tests;
+namespace Nouvic\Google2FALaravel\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use PragmaRX\Google2FALaravel\ServiceProvider as Google2FALaravelServiceProvider;
+use Nouvic\Google2FALaravel\ServiceProvider as Google2FALaravelServiceProvider;
 
 class TestCase extends OrchestraTestCase
 {

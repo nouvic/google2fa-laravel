@@ -1,13 +1,13 @@
 <?php
 
-namespace PragmaRX\Google2FALaravel\Tests;
+namespace Nouvic\Google2FALaravel\Tests;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use PragmaRX\Google2FALaravel\Facade as Google2FA;
-use PragmaRX\Google2FALaravel\Support\Authenticator;
-use PragmaRX\Google2FALaravel\Tests\Support\User;
+use Nouvic\Google2FALaravel\Facade as Google2FA;
+use Nouvic\Google2FALaravel\Support\Authenticator;
+use Nouvic\Google2FALaravel\Tests\Support\User;
 
 class Google2FaLaravelTest extends TestCase
 {

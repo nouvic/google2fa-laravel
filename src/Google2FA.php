@@ -1,18 +1,18 @@
 <?php
 
-namespace PragmaRX\Google2FALaravel;
+namespace Nouvic\Google2FALaravel;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request as IlluminateRequest;
-use PragmaRX\Google2FA\Support\Constants as Google2FAConstants;
-use PragmaRX\Google2FALaravel\Events\LoggedOut;
-use PragmaRX\Google2FALaravel\Events\OneTimePasswordExpired;
-use PragmaRX\Google2FALaravel\Exceptions\InvalidSecretKey;
-use PragmaRX\Google2FALaravel\Support\Auth;
-use PragmaRX\Google2FALaravel\Support\Config;
-use PragmaRX\Google2FALaravel\Support\Constants;
-use PragmaRX\Google2FALaravel\Support\Request;
-use PragmaRX\Google2FALaravel\Support\Session;
+use Nouvic\Google2FA\Support\Constants as Google2FAConstants;
+use Nouvic\Google2FALaravel\Events\LoggedOut;
+use Nouvic\Google2FALaravel\Events\OneTimePasswordExpired;
+use Nouvic\Google2FALaravel\Exceptions\InvalidSecretKey;
+use Nouvic\Google2FALaravel\Support\Auth;
+use Nouvic\Google2FALaravel\Support\Config;
+use Nouvic\Google2FALaravel\Support\Constants;
+use Nouvic\Google2FALaravel\Support\Request;
+use Nouvic\Google2FALaravel\Support\Session;
 use PragmaRX\Google2FA\Google2FA as Google2FAPackage;
 
 class Google2FA extends Google2FAPackage

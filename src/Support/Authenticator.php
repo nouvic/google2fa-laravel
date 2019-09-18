@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Google2FALaravel\Support;
+namespace Nouvic\Google2FALaravel\Support;
 
 use Illuminate\Http\Request as IlluminateRequest;
 use PragmaRX\Google2FALaravel\Events\EmptyOneTimePasswordReceived;

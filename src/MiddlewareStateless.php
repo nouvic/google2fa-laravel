@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Google2FALaravel;
+namespace Nouvic\Google2FALaravel;
 
 use Closure;
-use PragmaRX\Google2FALaravel\Support\Authenticator;
+use Nouvic\Google2FALaravel\Support\Authenticator;
 
 class MiddlewareStateless
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Google2FALaravel\Support;
+namespace Nouvic\Google2FALaravel\Support;
 
 use Illuminate\Support\MessageBag;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
